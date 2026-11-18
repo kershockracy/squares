@@ -8,6 +8,7 @@ function addSquare(){
     square.style.backgroundColor=getRandomColor();
     square.style.top = parseInt(Math.random()*(300-50))+"px";
     square.style.left = parseInt(Math.random()*(700-50))+"px";
+    //square.onclick........
     squareArea.append(square);
 }
 
@@ -27,3 +28,8 @@ function getRandomColor(){
     }
     return color;
 }
+//Homework:
+//bring square to front with z index when clicked
+//right click , inspect square , by default they all have no z index, if change in inspect pane they come to front
+//create function that makes it come to front 
+//Randomize size of square
